@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+section {
+    background-color: wheat;
+    height: 100%;
+}
+header {
+    background-color: #800000;
+    padding: 10px;
+    width: 100%;
+    min-height: 100%;
+    text-align: left;
+    font-size: 35px;
+    color:  white;
+}
+article {
+    background-color: #ccc;
+    float: left;
+    padding: 3px;
+    width: 85%;
+    min-height: 100%;
+}
+article p{
+    text-align: justify;
+}
+nav {
+    float: left;
+    width: 15%;
+    height: 100%;
+    background: grey;
+    padding: 3px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.button {
+    width: 100%;
+    background-color: gray; 
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    margin: 1px 1px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid teal;
+}
+.buttonS {
+    width: 100%;
+    background-color: gray; 
+    color: rgba(172, 3, 3, 0.932);
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    margin: 1px 1px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.s;
+}
+.buttonS:hover {
+    background-color: white;
+    color: rgba(172, 3, 3, 0.932);
+    border: 2px solid teal;
+}
+footer {
+    font-family: 'assets/css/font.css';
+    background-color: #800000;
+    height: 0%;
+    padding: 10px;
+    text-align: right;
+    color: white;
+}
+body section article div h6 {
+    text-align: left;
+}
+body section article div div form label {
+    color: green;
+    text-align: left;
+}
+#video {
+    background-color: whitesmoke;
+    padding: 5px;
+    margin: 1px;
+    margin-top: 3px;
+}
+#options-vid {
+    background-color: whitesmoke;
+    padding: 5px;
+    margin: 1px;
+    margin-bottom: 3px;
+}
+#comments {
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 1px;
+    margin-top: 3px;
+}
+video {
+    background-color: rgb(61, 61, 61);
+    width: 100%;
+}
+@media (max-width: 600px) {
+    nav, section {
+      width: 100%;
+      height: auto;
+    }
+  }
+@media screen and (max-width: 810px) {
+    .col-sm-9  {
+        margin-left: 150px;
+    }
+}
